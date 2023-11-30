@@ -18,6 +18,10 @@ kubectl get deployment
 ### Service (svc)
 kubectl get services
 
+### Namespace (ns)
+kubectl create namespace <name>
+
+
 Short name 	Full name
 csr       	certificatesigningrequests
 cs 	componentstatuses
