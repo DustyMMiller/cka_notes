@@ -15,7 +15,8 @@ kubectl scale --replicas=<number> replicaset <name>
 ### Deployments (deploy)
 kubectl get deployment
 
-
+### Service (svc)
+kubectl get services
 
 Short name 	Full name
 csr       	certificatesigningrequests
