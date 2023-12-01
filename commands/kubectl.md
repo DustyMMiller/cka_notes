@@ -21,6 +21,20 @@ kubectl get services
 ### Namespace (ns)
 kubectl create namespace <name>
 
+### Taint
+kubectl taint nodes <node> <key>=<value>:<effect>
+kubectl taint nodes node01 app=blue:NoSchedule
+
+### Node Labels
+kubectl label node <node> <key>=<value>
+kubectl label node node01 size=Large
+
+
+
+
+
+
+
 
 Short name 	Full name
 csr       	certificatesigningrequests
